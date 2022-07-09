@@ -1,0 +1,9 @@
+= 3 functional requirements:
+  - must contain a music library
+  - must choose a song form music library
+  - must play one song in time
+
+= 3 non-functional requirements:
+  - should be nice colorful
+  - should be available in any time
+  - should be use by more than one in same time

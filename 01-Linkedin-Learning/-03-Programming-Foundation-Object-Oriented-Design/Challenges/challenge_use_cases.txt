@@ -1,0 +1,4 @@
+Title: Songs for Astronaut
+Primary Actor: Astronaut
+Success Scenario: Astronaut login to system. Astronaut chooses one song.
+This song is added to the playlist. system plays songs in playlist in order.
