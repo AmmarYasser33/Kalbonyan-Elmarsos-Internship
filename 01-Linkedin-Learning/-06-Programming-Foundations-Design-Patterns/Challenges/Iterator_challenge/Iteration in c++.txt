@@ -1,0 +1,29 @@
+C++
+Support iterator for all containers, 
+But it is not supported for Stack and Queue
+And has built-in iterator
+
+
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+{
+    vector<int> v = { 1, 2, 3 };
+ 
+    vector<int>::iterator i;
+    
+    // 1
+    for (int j = 0; j < 3; ++j)
+    {
+        cout << v[j] << " ";
+    }
+      
+    // 2
+    for (i = v.begin(); i != v.end(); ++i)
+    {
+        cout << *i << " ";
+    }
+  
+    return 0;
+}
