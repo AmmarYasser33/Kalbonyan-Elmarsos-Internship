@@ -1,0 +1,109 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.parent {
+  width: 60%;
+  border: 5px solid black;
+  margin: 30px auto;
+}
+article {
+  border: 5px solid black;
+  position: relative;
+}
+.label {
+  text-align: center;
+  background-color: #e9e9e9;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 15px 0;
+}
+.price {
+  font-size: 24px;
+  margin: 0;
+}
+.shipping {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 13px;
+  margin-top: 0;
+}
+.sale {
+  color: white;
+  background-color: #ec2f2f;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 7px 15px;
+
+  position: absolute;
+  top: -30px;
+  left: -38px;
+}
+a:link,
+a:visited {
+  color: gray;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+.colors {
+  margin-top: 20px;
+}
+.color-black,
+.color-blue,
+.color-red,
+.color-brown,
+.color-green,
+.color-yellow {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.color-black {
+  background-color: black;
+}
+.color-blue {
+  background-color: #2f6ee2;
+}
+.color-red {
+  background-color: #ec2f2f;
+}
+.color-yellow {
+  background-color: #f0bf1e;
+}
+.color-green {
+  background-color: #90cc20;
+}
+.color-brown {
+  background-color: #885214;
+}
+.details {
+  text-transform: uppercase;
+}
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  border-top: 5px solid black;
+  font-size: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px 0;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
