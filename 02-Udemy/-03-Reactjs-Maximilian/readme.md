@@ -131,4 +131,4 @@
 
 ![Certificate](https://via.placeholder.com/468x300?text=Certificate+Here)
 <br>
-Thank you [@abdelrhman-ahmed-kamal](https://github.com/Abdelrhman-ahmed-kamal) and [@mahmoud-farag](https://github.com/mahmoud-farag) for helping us to write this readme
+
