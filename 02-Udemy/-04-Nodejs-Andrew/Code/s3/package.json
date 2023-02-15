@@ -1,0 +1,16 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ammar Yasser",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "validator": "^13.7.0"
+  }
+}
