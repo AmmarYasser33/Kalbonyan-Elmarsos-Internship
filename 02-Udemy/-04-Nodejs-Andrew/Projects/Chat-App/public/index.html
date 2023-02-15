@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js"
+    ></script> -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.0/qs.min.js"
+    ></script>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="/js/chat.js"></script>
+
+    <link rel="icon" href="/img/favicon.png" />
+    <link rel="stylesheet" href="/css/styles.min.css" />
+    <title>Chat App</title>
+  </head>
+  <body>
+    <div class="centered-form">
+      <div class="centered-form__box">
+        <h1>Join</h1>
+        <form action="/chat.html">
+          <label for="username">Display name</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Display name"
+            required
+          />
+          <label for="room">Room</label>
+          <input
+            type="text"
+            id="room"
+            name="room"
+            placeholder="Room"
+            required
+          />
+
+          <button>Join</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
