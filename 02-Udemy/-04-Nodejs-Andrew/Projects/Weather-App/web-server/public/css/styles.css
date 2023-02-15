@@ -1,0 +1,93 @@
+:root {
+  --theme-color: #0f088f;
+}
+
+body {
+  color: #333;
+  /* background: linear-gradient(60deg, #606c88, #3f4c6b); */
+  background: linear-gradient(60deg, #00d2ff, #3a7bd5);
+  /* background: linear-gradient(60deg, #4b6cb7, #182848); */
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: #888;
+  color: var(--theme-color);
+  border-top: 1px solid #ccc;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888;
+  color: var(--theme-color);
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+header a:hover {
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--theme-color);
+  /* font-weight: 600; */
+}
+
+.email {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.messages {
+  color: #070530;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.photo {
+  width: 200px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+input:focus,
+input:active {
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid var(--theme-color);
+  border-radius: 5px;
+  background-color: #888;
+  background-color: var(--theme-color);
+  color: #fff;
+  padding: 8px;
+}
